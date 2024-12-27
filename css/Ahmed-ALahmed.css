@@ -1,0 +1,144 @@
+body {
+    font-family: arabic;
+    height: 5000px;
+}
+
+@font-face {
+    font-family: arabic;
+    src: url(IBMPlexSansArabic-Bold.ttf);
+}
+
+.navbar {
+    background-color: #0e0e0e61;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #AD7D2F;
+    text-decoration: underline;
+}
+
+
+.landing {
+    height: 748px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.h5 {
+    font-size: 24px;
+}
+
+.h6 {
+    font-size: 20px;
+}
+
+.h2 {
+    font-size: 36px;
+}
+
+.row {
+    --bs-gutter-x: -3rem;
+}
+
+.title-1 {
+    color: white;
+    text-shadow: 0 4px 4px #0000006b
+}
+
+.title-2 {
+    color: rgb(0, 0, 0);
+}
+
+.secondary-title::after {
+    content: '';
+    width: 100px;
+    height: 6px;
+    background-color: #AD7D2F;
+    position: absolute;
+    left: 50%;
+    bottom: -165px;
+    transform: translateX(-50%);
+}
+
+.card-footer {
+    padding: 1.5rem 1rem;
+    background-color: #AD7D2F;
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    color: white;
+}
+
+.categories {
+    margin-top: 90px;
+}
+
+.sub-title {
+    color: #AD7D2F;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.parent-sub-title {
+    background-color: #0000008f;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    display: ruby;
+}
+
+.card {
+    border: none;
+    position: relative;
+}
+
+.text-icon01::before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 45px;
+    background-image: url('صوره-المدير\ العام.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.text-icon02::before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 45px;
+    background-image: url('صورة-قصتنا.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.text-icon03::before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 45px;
+    background-image: url('صوره-فريقنا.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.area {
+    padding: 1rem 1rem;
+    background-color: #AD7D2F;
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+}
