@@ -10,6 +10,8 @@ body {
 
 .navbar {
     background-color: #0e0e0e61;
+    width: -webkit-fill-available;
+
 }
 
 .navbar .navbar-nav .nav-link:hover {
